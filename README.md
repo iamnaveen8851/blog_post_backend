@@ -12,6 +12,9 @@
 
 
 # create .env file
+```
 PORT= add your port number
 NODE_ENV= add your node environment
 MONGO_DB_URI= add your mongodb uri
+
+```
