@@ -1,6 +1,14 @@
 # blog_post_backend
 
 
+<!-- Start the server -->
+
+```
+1. npm install
+2. npm run dev
+
+```
+
 ## Packages
 - [x] express
 - [x] cors
@@ -18,3 +26,4 @@ NODE_ENV= add your node environment
 MONGO_DB_URI= add your mongodb uri
 
 ```
+
