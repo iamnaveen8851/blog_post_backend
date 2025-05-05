@@ -9,14 +9,6 @@
 
 ```
 
-## Packages
-- [x] express
-- [x] cors
-- [x] dotenv
-- [x] jsonwebtoken
-- [x] nodemon
-- [x] mongoose
-- [x] bcrypt.js
 
 
 # create .env file
@@ -27,3 +19,13 @@ MONGO_DB_URI= add your mongodb uri
 
 ```
 
+
+
+## Packages
+- [x] express
+- [x] cors
+- [x] dotenv
+- [x] jsonwebtoken
+- [x] nodemon
+- [x] mongoose
+- [x] bcrypt.js
