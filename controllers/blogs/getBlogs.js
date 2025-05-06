@@ -3,7 +3,7 @@ const blogModel = require("../../models/blogModel");
 
 const getBlogs = async(req, res)=> {
     try {
-        const allBlogs = await blogModel.find().populate("author","username")
+        const allBlogs = await blogModel.find().populate("author","username profilePicture")
  
         if(!allBlogs){
             return res.status(404).json({
