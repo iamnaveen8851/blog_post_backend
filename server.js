@@ -12,10 +12,10 @@ const app = express();
 // middleware
 app.use(express.json());
 app.use(cors(
-    // {
-    //     origin : process.env.NODE_ENV === "production"? process.env.PRO_URL : process.env.DEV_URL,
-    //     credentials: true
-    // }
+    {
+        origin : process.env.NODE_ENV === "production"? process.env.PRO_URL : process.env.DEV_URL,
+        credentials: true
+    }
 ))
 app.use(cookieParser())
 
